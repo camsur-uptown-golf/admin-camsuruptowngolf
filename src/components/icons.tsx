@@ -57,6 +57,12 @@ export const Icon = {
       <ellipse cx="9" cy="21" rx="5" ry="1" />
     </Svg>
   ),
+  content: ({ size }: IconProps) => (
+    <Svg size={size}>
+      <rect x="3" y="5" width="18" height="16" rx="2" />
+      <path d="M3 10h18M8 3v4M16 3v4" />
+    </Svg>
+  ),
   search: ({ size }: IconProps) => (
     <Svg size={size}>
       <circle cx="11" cy="11" r="7" />

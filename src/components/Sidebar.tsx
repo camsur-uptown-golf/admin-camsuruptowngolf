@@ -61,6 +61,10 @@ export default function Sidebar() {
         <div className="nav-label">Audience</div>
         {link("subscribers")}
         {link("members")}
+        <div className="nav-label">Member app</div>
+        <Link href="/club-content" aria-current={pathname === "/club-content" ? "page" : undefined}>
+          <Icon.content size={18} /> Events &amp; offers
+        </Link>
       </nav>
       <div className="side-foot">
         <div className="who">

@@ -1629,3 +1629,66 @@ blockquote.note {
     padding-bottom: 0;
   }
 }
+
+/* ---------- Events & offers (member app) ---------- */
+
+.content-lede {
+  margin: -6px 0 18px;
+  color: var(--ink-3);
+  font-size: 13px;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 22px;
+  align-items: start;
+}
+
+.content-form {
+  padding-bottom: 18px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.content-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0 12px;
+}
+
+.content-form .select {
+  width: 100%;
+  height: 48px;
+  border-radius: 10px;
+  border-color: var(--cream-300);
+}
+
+.field textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid var(--cream-300);
+  border-radius: 10px;
+  background: #fff;
+  font: inherit;
+  resize: vertical;
+}
+
+.field textarea:focus {
+  outline: none;
+  border-color: var(--green-700);
+  box-shadow: 0 0 0 4px rgba(38, 81, 54, 0.12);
+}
+
+.content-notify {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 16px;
+  font-size: 13px;
+  color: var(--ink-2);
+}
+
+.content-actions {
+  text-align: right;
+}
